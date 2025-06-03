@@ -1,0 +1,13 @@
+
+# ----- | Arlo's Commit Notation Cheat Sheet:
+# * f   | Feature (> 8 LOC)
+# - f   | Feature (<= 8 LOC)
+# * b   | Bug fix (> 8 LOC)
+# - b   | Bug fix (<= 8 LOC)
+# * r   | Non-provable refactoring
+# - r   | Test-supported procedural refactoring
+# . r   | Automated refactoring
+# . d   | Developer-visible documentation
+# . a   | Automatic formatting/generation
+# . e   | Environment (non-code) changes that affect development setup
+# . t   | Test-only

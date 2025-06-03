@@ -1,0 +1,179 @@
+{
+  "ignoredApps" : [
+    "com.apple.iphonesimulator"
+  ],
+  "windowSwitcherFeatures" : 57,
+  "windowKeyAssignments" : [
+
+  ],
+  "windowTriggerKeys" : [
+    5
+  ],
+  "hideOnlyFocusedAppOnMinus" : false,
+  "windowOnlySwitchOSDDelay" : 0,
+  "windowKeyPatterns" : [
+    {
+      "pattern" : ".* — [^\\w\\d]*(.)",
+      "id" : "com.sublimetext.4"
+    },
+    {
+      "id" : "com.sublimetext.3",
+      "pattern" : ".* — [^\\w\\d]*(.)"
+    },
+    {
+      "pattern" : ".* — [^\\w\\d]*(.)",
+      "id" : "com.sublimetext.2"
+    },
+    {
+      "pattern" : ".* — [^\\w\\d]*(.)",
+      "id" : "com.sublimetext."
+    },
+    {
+      "pattern" : ".* — [^\\w\\d]*(.)",
+      "id" : "com.visualstudio.code.oss"
+    },
+    {
+      "id" : "com.visualstudio.code",
+      "pattern" : ".* — [^\\w\\d]*(.)"
+    },
+    {
+      "id" : "com.microsoft.VSCodiumInsiders",
+      "pattern" : ".* — [^\\w\\d]*(.)"
+    },
+    {
+      "id" : "com.microsoft.VSCode",
+      "pattern" : ".* — [^\\w\\d]*(.)"
+    },
+    {
+      "id" : "com.microsoft.VSCodeInsiders",
+      "pattern" : ".* — [^\\w\\d]*(.)"
+    },
+    {
+      "id" : "com.microsoft.VSCod",
+      "pattern" : ".* — [^\\w\\d]*(.)"
+    },
+    {
+      "pattern" : ".* — [^\\w\\d]*(.)",
+      "id" : "com.todesktop."
+    }
+  ],
+  "activateAllWindows" : true,
+  "focusOnKeyUp" : false,
+  "switcherScreenPlacement" : 1,
+  "minimizeKey" : "minus",
+  "windowSwitcherAppearance" : "comfortable",
+  "showWindowSwitcher" : true,
+  "appSort" : "name",
+  "notificationsPermissionsGranted" : false,
+  "appSortReverse" : false,
+  "keyTapThreshold" : 0.14,
+  "alwaysHideOthers" : false,
+  "whenAlreadyFocusedAction" : 2,
+  "appSwitcherFeatures" : 38,
+  "showAppSwitcher" : false,
+  "appKeyAssignments" : [
+    {
+      "key" : "x",
+      "whenAlreadyFocusedAction" : 2,
+      "index" : 0,
+      "app" : {
+        "originalName" : "Xcode",
+        "identifier" : "com.apple.dt.Xcode:89575",
+        "path" : "/Applications/Xcode.app",
+        "useCount" : 640,
+        "switchCount" : 0
+      }
+    },
+    {
+      "key" : "c",
+      "whenAlreadyFocusedAction" : 2,
+      "app" : {
+        "path" : "/Applications/ChatGPT.app",
+        "useCount" : 192,
+        "originalName" : "ChatGPT",
+        "switchCount" : 0,
+        "identifier" : "com.openai.chat:68505"
+      },
+      "index" : 0
+    },
+    {
+      "app" : {
+        "path" : "/Applications/Firefox.app",
+        "switchCount" : 0,
+        "useCount" : 3,
+        "identifier" : "org.mozilla.firefox:90436",
+        "originalName" : "Firefox"
+      },
+      "whenAlreadyFocusedAction" : 2,
+      "index" : 0,
+      "key" : "f"
+    },
+    {
+      "key" : "1",
+      "app" : {
+        "useCount" : 5,
+        "switchCount" : 0,
+        "originalName" : "1Password",
+        "identifier" : "com.1password.1password:899",
+        "path" : "/Applications/1Password.app"
+      },
+      "index" : 0,
+      "whenAlreadyFocusedAction" : 2
+    },
+    {
+      "key" : "s",
+      "index" : 0,
+      "app" : {
+        "originalName" : "Spotify",
+        "switchCount" : 0,
+        "path" : "/Applications/Spotify.app",
+        "useCount" : 4,
+        "identifier" : "com.spotify.client:7981"
+      },
+      "whenAlreadyFocusedAction" : 2
+    },
+    {
+      "index" : 0,
+      "app" : {
+        "switchCount" : 0,
+        "originalName" : "iTerm",
+        "path" : "/Applications/iTerm.app",
+        "useCount" : 192,
+        "identifier" : "com.googlecode.iterm2:89102"
+      },
+      "key" : "i",
+      "whenAlreadyFocusedAction" : 2
+    },
+    {
+      "index" : 0,
+      "key" : "o",
+      "app" : {
+        "useCount" : 9,
+        "switchCount" : 0,
+        "identifier" : "md.obsidian:92356",
+        "originalName" : "Obsidian",
+        "path" : "/Applications/Obsidian.app"
+      },
+      "whenAlreadyFocusedAction" : 2
+    }
+  ],
+  "windowSwitcherDimFocused" : false,
+  "allowWindowSwitcher" : false,
+  "ignoredKeys" : [
+
+  ],
+  "enableAssignHotkey" : true,
+  "minimizeOnlyFocusedWindowOnMinus" : true,
+  "zeroAsLastFocusedWindow" : false,
+  "enableStaticCycle" : false,
+  "hideStaticSettings" : true,
+  "windowSwitchOSDDelay" : 350,
+  "appSwitcherUseNumbersForWindows" : false,
+  "specialKey" : "equal",
+  "enableCycleHotkey" : true,
+  "enableHideOnFocusHotkey" : false,
+  "fnWindowSwitching" : false,
+  "triggerKeys" : [
+    4
+  ]
+}

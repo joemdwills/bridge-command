@@ -1,0 +1,6 @@
+brew "ansible"
+brew "openjdk@17" # For Kotlin development
+cask "vlc"
+cask "rapidapi"
+cask "chatgpt"
+cask "jetbrains-toolbox"

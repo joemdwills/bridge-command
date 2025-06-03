@@ -1,0 +1,6 @@
+brew "node"
+cask "sf-symbols"
+cask "trailer"
+cask "postman"
+cask "android-studio"
+cask "keycastr"

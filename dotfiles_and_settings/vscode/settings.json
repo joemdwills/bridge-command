@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "codesnap.transparentBackground": true,
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 0px 0px",
+    "codesnap.showWindowTitle": true
+}
