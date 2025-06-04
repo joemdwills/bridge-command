@@ -57,13 +57,13 @@ function install_packages_from_brewfile {
         exit 1
     fi
 
-    if [ "$ENVIRONMENT_EXPORT" == "work" ]; then
+    if [[ "${!ENVIRONMENT_EXPORT}" == "work" ]]; then
         echo "Installing packages from work Brewfile..."
         work_brewfile_path="$BREWFILE_PATH/brewfile_work"
         brew bundle --file="$work_brewfile_path"
     fi
 
-    if [ "$ENVIRONMENT_EXPORT" == "personal" ]; then
+    if [[ "${!ENVIRONMENT_EXPORT}" == "personal" ]]; then
         echo "Installing packages from personal Brewfile..."
         personal_brewfile_path="$BREWFILE_PATH/brewfile_personal"
         brew bundle --file="$personal_brewfile_path"
