@@ -19,7 +19,6 @@ export SCRIPTS_DIR
 alias hello="$SCRIPTS_DIR/hello.sh; reloadprofile"
 alias backup="$SCRIPTS_DIR/backup.sh"
 
-alias add="git add ."
 alias commit="git commit"
 alias delete-derived-data="python3 $SCRIPTS_DIR/xcode_delete_derived_data.py"
 alias deleteMergedBranches='git branch --merged | egrep -v "(^\*|master|main|dev|develop)" | xargs git branch -d'
@@ -29,12 +28,9 @@ alias f='open .'
 alias fork='open -a Fork ./'
 alias glog="git log --oneline --decorate --graph"
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'	
-alias oa="python3 $SCRIPTS_DIR/android_studio_open.py"
-alias ov="code ."
-alias ox="python3 $SCRIPTS_DIR/xcode_open.py"
-alias pr-open="gh pr view --web"
-alias pull='git pull'
-alias push='git push'
+alias oas="python3 $SCRIPTS_DIR/android_studio_open.py"
+alias ovsc="code ."
+alias oxc="python3 $SCRIPTS_DIR/xcode_open.py"
 alias refresh-ignore='git rm -r --cached . && git add .'
 alias reloadprofile='source ~/.zshrc'
 alias rename_docs="python3 $SCRIPTS_DIR/rename_document.py"
@@ -70,10 +66,33 @@ eval "$(pyenv init - zsh)"
 export ZSH="$HOME/.oh-my-zsh"
 
 # Theme and appearance
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 
 # Plugins
-plugins=(git)
+plugins=(
+    git
+    mise
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
 
 # Source Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
+
+# Pure Theme - Oh-My-Zsh
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
+
+autoload -U promptinit; promptinit
+
+zstyle :prompt:pure:git:stash show yes
+zstyle :prompt:pure:git:branch color 214
+zstyle :prompt:pure:git:dirty: color 218
+zstyle :prompt:pure:prompt:success color 048
+zstyle :prompt:pure:prompt:error color 160
+zstyle :prompt:pure:prompt:continuation color 253
+
+print() {
+  [ 0 -eq $# -a "prompt_pure_precmd" = "${funcstack[-1]}" ] || builtin print "$@";
+}
+
+prompt pure
