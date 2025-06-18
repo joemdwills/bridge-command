@@ -1,12 +1,18 @@
-brew "pyenv"            # Manages Python environments
 brew "duti"             # Sets default applications for document types
+brew "pyenv"            # Manages Python environments
+brew "pure"
+brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # brew "gh"               # GitHub CLI 
-# brew "mas"              # Install App Store apps via command line
+brew "mas"              # Install App Store apps via command line
+cask "android-studio"
 cask "appcleaner"
 cask "iterm2"
+cask "figma"
 cask "fork"
+cask "logi-options+"
+cask "notion"
 cask "obsidian"
 cask "proxyman"
 cask "rectangle"

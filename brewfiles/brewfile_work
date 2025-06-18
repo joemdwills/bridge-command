@@ -1,5 +1,5 @@
+brew "mise"
 brew "node"
-cask "android-studio"
 cask "keycastr"
 cask "postman"
 cask "sf-symbols"
