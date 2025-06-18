@@ -29,7 +29,7 @@ defaults write com.apple.dock static-only -bool false # Only show currently runn
 defaults write com.apple.dock show-recents -bool true
 
 # Setup Finder Preferences
-defaults write com.apple.finder FXPreferredViewStyle -string "clmv" # Use column view in Finder
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv" # Use column view in Finder
 defaults write com.apple.finder NewWindowTarget -string "PfHm" # Open new Finder windows on home directory (both lines required).
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/" # Open new Finder windows on home directory (both lines required).
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
@@ -44,7 +44,7 @@ osascript -e 'tell application "System Events" to tell appearance preferences to
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 0
-defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool false
 
 defaults write -g com.apple.trackpad.scaling -float 1.727492
 defaults write -g com.apple.mouse.scaling -float 1.727492
