@@ -21,13 +21,12 @@ duti -s com.microsoft.VSCode .yml all
 echo "Default text editor updated successfully."
 
 # Setup Dock Preferences
-defaults write com.apple.dock autohide -bool true
-defaults write com.apple.dock magnification -bool true
-defaults write com.apple.dock largesize -int 79
-defaults write com.apple.dock mineffect -string "genie"
-defaults write com.apple.dock static-only -bool true # Only show currently running apps
-defaults write com.apple.dock show-recents -bool false
-killall Dock
+defaults write com.apple.dock autohide -bool false
+defaults write com.apple.dock magnification -bool false
+defaults write com.apple.dock largesize -int 50
+defaults write com.apple.dock mineffect -string "scale"
+defaults write com.apple.dock static-only -bool false # Only show currently running apps
+defaults write com.apple.dock show-recents -bool true
 
 # Setup Finder Preferences
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv" # Use column view in Finder

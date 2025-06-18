@@ -24,8 +24,8 @@ echo "Installing Homebrew packages from Brewfiles."
 "$SCRIPT_DIR/Scripts/install_homebrew_packages.sh"
 echo "Homebrew package setup completed."
 
-print_header "Install App Store Apps"
-"$SCRIPT_DIR/Scripts/install_app_store_apps.sh"
+print_header "Skipping App Store Apps"
+# "$SCRIPT_DIR/Scripts/install_app_store_apps.sh"
 
 print_header "Setup Global Git Config"
 "$SCRIPT_DIR/Scripts/setup_git_global_config.sh"
@@ -52,12 +52,12 @@ print_header "Setup VSCode"
 "$SCRIPT_DIR/Scripts/setup_vscode.sh"
 echo "Finished setting up VSCode."
 
-print_header "Setup Shortcut Keeper"
-"$SCRIPT_DIR/Scripts/setup_shortcut_keeper.sh"
-echo "Finished setting up Shortcut Keeper."
+# print_header "(Skipped) Setup Shortcut Keeper"
+# "$SCRIPT_DIR/Scripts/setup_shortcut_keeper.sh"
+# echo "Finished setting up Shortcut Keeper."
 
-print_header "Update Notes"
-echo "Pulling latest changes from notes repo."
-cd "$NOTES_PATH"
-git pull
-echo "Latest changes have been pulled."
+# print_header "(Skipped) Update Notes"
+# echo "Pulling latest changes from notes repo."
+# cd "$NOTES_PATH"
+# git pull
+# echo "Latest changes have been pulled."
