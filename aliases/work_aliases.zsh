@@ -17,6 +17,7 @@ alias local-properties='open local.properties'
 
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 export JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
+launchctl setenv JAVA_HOME $JAVA_HOME
 
 #   -------------------------------
 #   Mise (from the project README)
