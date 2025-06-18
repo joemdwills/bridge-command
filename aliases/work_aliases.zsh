@@ -22,5 +22,5 @@ export JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
 #   Mise (from the project README)
 #   -------------------------------
 
-export PATH=$HOME/.local/share/mise/shims:$PATH
-eval "$(~/.local/bin/mise activate zsh)"
+# export PATH=$HOME/.local/share/mise/shims:$PATH
+# eval "$(~/.local/bin/mise activate zsh)"

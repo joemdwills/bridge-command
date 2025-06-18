@@ -18,7 +18,7 @@ export SCRIPTS_DIR
 
 alias hello="$SCRIPTS_DIR/hello.sh; reloadprofile"
 alias backup="$SCRIPTS_DIR/backup.sh"
-
+alias bridge="cd ~/SourceCode/bridge-command"
 alias commit="git commit"
 alias delete-derived-data="python3 $SCRIPTS_DIR/xcode_delete_derived_data.py"
 alias deleteMergedBranches='git branch --merged | egrep -v "(^\*|master|main|dev|develop)" | xargs git branch -d'
@@ -27,7 +27,8 @@ alias editsharedprofile='open ${SHARED_PROFILE_PATH}'
 alias f='open .'
 alias fork='open -a Fork ./'
 alias glog="git log --oneline --decorate --graph"
-alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'	
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias home="cd ~/"	
 alias oas="python3 $SCRIPTS_DIR/android_studio_open.py"
 alias ovsc="code ."
 alias oxc="python3 $SCRIPTS_DIR/xcode_open.py"
@@ -71,9 +72,8 @@ ZSH_THEME=""
 # Plugins
 plugins=(
     git
-    mise
-    zsh-autosuggestions
-    zsh-syntax-highlighting
+    # mise
+
 )
 
 # Source Oh-My-Zsh
@@ -96,3 +96,6 @@ print() {
 }
 
 prompt pure
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
