@@ -23,5 +23,5 @@ launchctl setenv JAVA_HOME $JAVA_HOME
 #   Mise (from the project README)
 #   -------------------------------
 
-# export PATH=$HOME/.local/share/mise/shims:$PATH
+export PATH=$HOME/.local/share/mise/shims:$PATH
 # eval "$(~/.local/bin/mise activate zsh)"

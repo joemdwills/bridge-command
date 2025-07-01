@@ -50,7 +50,7 @@ defaults write -g com.apple.trackpad.scaling -float 1.727492
 defaults write -g com.apple.mouse.scaling -float 1.727492
 
 defaults write -g KeyRepeat -int 1
-defaults write -g InitialKeyRepeat -int 20
+defaults write -g InitialKeyRepeat -int 50
 
 killall SystemUIServer
 
