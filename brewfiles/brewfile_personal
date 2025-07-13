@@ -1,1 +1,2 @@
+brew "firebase-cli"
 cask "jetbrains-toolbox"

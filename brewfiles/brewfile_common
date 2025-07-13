@@ -1,8 +1,8 @@
 brew "duti"             # Sets default applications for document types
+brew "git-lfs"
 brew "pyenv"            # Manages Python environments
 brew "pure"
 brew "zsh"
-brew "zsh-autocomplete"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # brew "gh"               # GitHub CLI 
