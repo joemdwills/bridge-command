@@ -44,9 +44,9 @@ print_header "Setup System Preferences"
 "$SCRIPT_DIR/Scripts/setup_system_preferences.sh"
 echo "System preferences setup completed."
 
-print_header "Setup Login Items"
-osascript "$SCRIPT_DIR/Scripts/setup_login_items.scpt"
-echo "Login items setup completed."
+# print_header "Setup Login Items"
+# osascript "$SCRIPT_DIR/Scripts/setup_login_items.scpt"
+# echo "Login items setup completed."
 
 print_header "Setup VSCode"
 "$SCRIPT_DIR/Scripts/setup_vscode.sh"
