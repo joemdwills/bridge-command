@@ -39,6 +39,7 @@ alias screen-recording="osascript $SCRIPTS_DIR/new_screen_recording.scpt"
 alias scripts="cd $SCRIPT_DIR"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias snippets='cd ~/Library/Developer/Xcode/UserData/CodeSnippets'
+alias sourceCode="cd ~/SourceCode"
 alias switch-and-pull="bash $SCRIPTS_DIR/switch_and_pull.sh"
 
 #   -------------------------------
