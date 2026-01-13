@@ -48,8 +48,18 @@ alias switch-and-pull="bash $SCRIPTS_DIR/switch_and_pull.sh"
 
 if [[ "$ENVIRONMENT" == "work" ]]; then
   WORK_ALIAS_PATH="$SCRIPT_DIR/aliases/work_aliases.zsh"
-  alias edit-work-profile='open ${WORK_ALIAS_PATH}'	
+  alias edit-work-profile='open ${WORK_ALIAS_PATH}'
   source $WORK_ALIAS_PATH
+fi
+
+#   -------------------------------
+#   Personal Specific Aliases
+#   -------------------------------
+
+if [[ "$ENVIRONMENT" == "personal" ]]; then
+  PERSONAL_ALIAS_PATH="$SCRIPT_DIR/aliases/personal_aliases.zsh"
+  alias edit-personal-profile='open ${PERSONAL_ALIAS_PATH}'
+  source $PERSONAL_ALIAS_PATH
 fi
 
 #   -------------------------------
@@ -100,3 +110,11 @@ prompt pure
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
