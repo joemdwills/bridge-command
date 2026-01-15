@@ -1,3 +1,4 @@
 brew "firebase-cli"
 cask "jetbrains-toolbox"
 cask "sclack"
+cask "spotify"
