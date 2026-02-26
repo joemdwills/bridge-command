@@ -13,8 +13,11 @@ alias baton="cd /Users/joewilliams/SourceCode/Baton"
 alias baton-web="cd /Users/joewilliams/SourceCode/Baton-web"
 alias fractal="cd /Users/joewilliams/SourceCode/fractal"
 alias whichCam="cd /Users/joewilliams/SourceCode/WhichCam"
-alias wodit="cd /Users/joewilliams/SourceCode/WODit"
+alias wodit="cd /Users/joewilliams/SourceCode/WODit-iOS"
 alias wodit-web="cd /Users/joewilliams/SourceCode/WODit-web"
+
+## --- Tests --- ##
+alias blink="cd /Users/joewilliams/SourceCode/BlinkChat"
 
 ## --- APPSTRM --- ##
 alias appstrm-web="cd /Users/joewilliams/SourceCode/APPSTRM/website"
