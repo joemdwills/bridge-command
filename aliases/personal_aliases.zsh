@@ -21,10 +21,10 @@ alias blink="cd /Users/joewilliams/SourceCode/BlinkChat"
 
 ## --- APPSTRM --- ##
 alias appstrm-web="cd /Users/joewilliams/SourceCode/APPSTRM/website"
-alias city="cd /Users/joewilliams/SourceCode/APPSTRM/CityPuzzles"
-alias city-app="cd /Users/joewilliams/SourceCode/APPSTRM/CityPuzzles/CityPuzzles-App"
-alias city-web="cd /Users/joewilliams/SourceCode/APPSTRM/CityPuzzles/CityPuzzles-WebApp"
-alias city-func="cd /Users/joewilliams/SourceCode/APPSTRM/CityPuzzles/CityPuzzles-Functions"
+alias riddle="cd /Users/joewilliams/SourceCode/APPSTRM/Riddle-Ramble"
+alias riddle-app="cd /Users/joewilliams/SourceCode/APPSTRM/Riddle-Ramble/Mobile"
+alias riddle-web="cd /Users/joewilliams/SourceCode/APPSTRM/Riddle-Ramble/Platform/webapp"
+alias riddle-func="cd /Users/joewilliams/SourceCode/APPSTRM/Riddle-Ramble/Platform/functions"
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias tt-android="cd /Users/joewilliams/SourceCode/APPSTRM/TyreTracks-Android"
 alias tt-iOS="cd /Users/joewilliams/SourceCode/APPSTRM/TyreTracks"
